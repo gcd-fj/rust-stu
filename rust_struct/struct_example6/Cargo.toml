@@ -1,5 +1,5 @@
 [package]
-name = "rust_struct"
+name = "struct_example6"
 version = "0.1.0"
 edition = "2021"
 
