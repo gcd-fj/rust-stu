@@ -1,0 +1,15 @@
+# JetBrains
+.idea/
+*.iml
+
+# Editors
+.vscode/
+.zed/
+
+# Rust build artifacts
+target/
+debug/
+release/
+incremental/
+**/*.rlib
+**/*.rmeta
