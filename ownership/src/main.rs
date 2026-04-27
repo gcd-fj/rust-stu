@@ -2,7 +2,8 @@ fn main() {
     // println!("Hello, world!");
     // test();
     // test_function();
-    test3();
+    // test3();
+    test_tuple();
 }
 
 
@@ -75,7 +76,9 @@ fn takes_and_gives_back(a_string: String) -> String {
 
 #[allow(dead_code)]
 fn test_tuple() {
-
+    let s = String::from("hello");
+    let (s_length, s_length2) = calculate_length(s);
+    println!("s_length: {}, s_length2: {}", s_length, s_length2);
 }
 
 #[allow(dead_code)]
