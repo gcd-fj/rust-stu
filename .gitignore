@@ -13,3 +13,5 @@ release/
 incremental/
 **/*.rlib
 **/*.rmeta
+
+.codex
