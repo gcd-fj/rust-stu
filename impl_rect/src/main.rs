@@ -11,6 +11,7 @@ struct Rectangle {
 }
 
 impl Rectangle {
+    // &self 来替代 rectangle: &Rectangle
     fn area(&self) -> u32 {
         self.width * self.height
     }
